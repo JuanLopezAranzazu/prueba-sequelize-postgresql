@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/v1/products
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IkpVQU4gTE9QRVoiLCJpYXQiOjE2NjQ5MTY5MjgsImV4cCI6MTY2NDkyMDUyOH0.cDk5n2hWNQDNDvUlLg9iUb2HFVEA4bb0F_yo_S7IxBk
+
+{
+  "name": "Guitar electric music",
+  "price": 123.45,
+  "stock": "17"
+}
